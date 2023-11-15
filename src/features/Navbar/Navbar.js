@@ -90,7 +90,7 @@ function Navbar({ children }) {
                             <img
                               className="h-8 w-8 rounded-full"
                               src={
-                                "https://www.freepik.com/free-vector/illustration-businessman_2606517.htm#fromView=search&term=profile&page=1&position=11&track=sph&regularType=vector"
+                                "https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg?w=740&t=st=1700046548~exp=1700047148~hmac=1ba4096e1385cbc4a8263e851d78acd547582880b52afa40b4c955189b07d75f"
                               }
                               alt="profile"
                             />
