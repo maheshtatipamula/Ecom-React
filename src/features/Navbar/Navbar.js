@@ -9,10 +9,6 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { selectCartItems } from "../cart/CartSlice";
 
-const user = {
-  imageUrl:
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-};
 const navigation = [{ name: "wishlist", href: "/wishlist", current: false }];
 const userNavigation = [
   { name: "My Profile", link: "/my-profile" },
@@ -93,7 +89,9 @@ function Navbar({ children }) {
                             <span className="sr-only">Open user menu</span>
                             <img
                               className="h-8 w-8 rounded-full"
-                              src={`./Profile.avif`}
+                              src={
+                                "https://www.freepik.com/free-vector/illustration-businessman_2606517.htm#fromView=search&term=profile&page=1&position=11&track=sph&regularType=vector"
+                              }
                               alt="profile"
                             />
                           </Menu.Button>
