@@ -52,7 +52,7 @@ export const deleteItemsCartAsync = createAsyncThunk(
   async (itemId, { rejectWithValue }) => {
     try {
       const response = await deleteItemsInCart(itemId);
-      console.log(response);
+
       return response.data;
     } catch (error) {
       const errorMessage = error || "Failed to delete product";

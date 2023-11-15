@@ -51,6 +51,7 @@ const Checkout = () => {
   };
 
   const removeItem = (e, id) => {
+    console.log(id);
     dispatch(deleteItemsCartAsync(id));
     reset();
   };
@@ -250,9 +251,7 @@ const Checkout = () => {
                               <div className="flex">
                                 <button
                                   type="button"
-                                  onClick={(e) =>
-                                    removeItem(e, item.product.id)
-                                  }
+                                  onClick={(e) => removeItem(e, item._id)}
                                   className="font-medium text-indigo-600 hover:text-indigo-500"
                                 >
                                   Remove
